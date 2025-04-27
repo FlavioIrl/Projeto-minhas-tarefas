@@ -3,7 +3,7 @@ import Formulario from '../../constainers/formulario'
 
 const Cadastro = () => (
   <>
-    <BarraLateral />
+    <BarraLateral mostrarFiltros={false} />
     <Formulario />
   </>
 )
